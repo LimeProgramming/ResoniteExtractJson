@@ -1,5 +1,5 @@
 # ExtractJson
-You will need the following files from the Resonite_Data/managed folder of your Resonite Install
+You will need the following files from the Resonite_Data/managed folder of your Resonite Install.
  - Elements.Core.dll
  - LZ4.dll
  - LZMA.dll
@@ -8,3 +8,5 @@ You will need the following files from the Resonite_Data/managed folder of your 
  - MimeDetective.dll
  - Newtonsoft.Json.dll
  - Newtonsoft.Json.Bson.dll
+ 
+ I cannot include them, sorry.

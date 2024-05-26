@@ -1,0 +1,14 @@
+﻿<Weavers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FodyWeavers.xsd">
+	<Costura>
+		<ExcludeAssemblies>
+			MimeDetective
+			LZ4
+			LZMA
+			Elements.Core
+			Brotli.Core
+			BrotliSharpLib
+			Newtonsoft.Json
+			Newtonsoft.Json.Bson
+		</ExcludeAssemblies>
+	</Costura>
+</Weavers>

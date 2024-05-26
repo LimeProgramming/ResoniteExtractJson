@@ -1,0 +1,10 @@
+
+# Just making sure I don't accidentally upload these
+ExternalLibs/Brotli.Core.dll
+ExternalLibs/BrotliSharpLib.dll
+ExternalLibs/Elements.Core.dll
+ExternalLibs/LZ4.dll
+ExternalLibs/LZMA.dll
+ExternalLibs/MimeDetective.dll
+ExternalLibs/Newtonsoft.Json.Bson.dll
+ExternalLibs/Newtonsoft.Json.dll

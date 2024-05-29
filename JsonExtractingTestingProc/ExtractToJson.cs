@@ -1,15 +1,7 @@
-﻿using LZ4;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Runtime.InteropServices.ComTypes;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using static Elements.Core.FileUtil;
 
@@ -25,7 +17,6 @@ namespace JsonExtractingTestingProc
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int size = -1;
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
             if (result == DialogResult.OK) // Test result.
@@ -43,15 +34,7 @@ namespace JsonExtractingTestingProc
             txtMSGBox.Text = "";
             btnExecute.Enabled = false;
             btnExport.Enabled = false;
-
-            if ( File.Exists(FilePath.Text) )
-            {
-                btnExecute.Enabled = true;
-            }
-            else
-            {
-                btnExecute.Enabled = false;
-            }
+            btnExecute.Enabled = File.Exists(FilePath.Text);
         }
 
         private void btnExecute_Click(object sender, EventArgs e)
@@ -125,7 +108,7 @@ namespace JsonExtractingTestingProc
 
         // ==================== Has Assemblies ====================
 
-        private static readonly HashSet<string> NEOS2_ASSEMBLY_NAMES_SET = new HashSet<string> { "LZ4", "Brotli.Core", "BrotliSharpLib", "Elements.Core", "Newtonsoft.Json", "Newtonsoft.Json.Bson", "MimeDetective", "LZMA" };
+        private static readonly HashSet<string> NEOS2_ASSEMBLY_NAMES_SET = new HashSet<string> { "LZ4", "Brotli.Core", "BrotliSharpLib", "Elements.Core", "Newtonsoft.Json", "Newtonsoft.Json.Bson", "MimeDetective", "LZMA", "SevenZip" };
 
 
         private static DirectoryInfo GetExecutingPath()

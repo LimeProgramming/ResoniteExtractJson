@@ -8,3 +8,4 @@ ExternalLibs/LZMA.dll
 ExternalLibs/MimeDetective.dll
 ExternalLibs/Newtonsoft.Json.Bson.dll
 ExternalLibs/Newtonsoft.Json.dll
+ExternalLibs/SevenZip.dll

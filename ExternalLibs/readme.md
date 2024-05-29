@@ -8,5 +8,6 @@ You will need the following files from the Resonite_Data/managed folder of your 
  - MimeDetective.dll
  - Newtonsoft.Json.dll
  - Newtonsoft.Json.Bson.dll
+ - SevenZip.dll
  
  I cannot include them, sorry.

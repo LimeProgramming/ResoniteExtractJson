@@ -1,3 +1,6 @@
+> [!WARNING]
+> It is unlikely that I will maintain this, if it breaks, it breaks.<br>If I find out that it's broken and cannot be arsed to fix it, I'll take down the repo at some stage; likely long after it has broken. 
+
 # Resonite/NeosVR Extract json file
 Intended as a complement program for the mod [ExportResoniteToJson](https://github.com/LimeProgramming/ExportResoniteToJson).
 
